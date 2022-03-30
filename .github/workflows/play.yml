@@ -17,7 +17,7 @@ jobs:
         sudo cat >./ctinews.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/watch?v=_QbRXRnHMVY)
         EOL
     - name: Get ctvnews.m3u8
